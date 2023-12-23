@@ -15,17 +15,15 @@
     "jsx": "react-jsx",
     "declaration": true,
     "skipLibCheck": true,
-    "esModuleInterop": true ,
+    "esModuleInterop": true,
     "declarationMap": true,
     "allowImportingTsExtensions": true,
     "baseUrl": ".",
     "paths": {
-      "components": [ "src/components/index.ts" ]
+      "components": ["src/components/index.ts"],
+      "ui":["src/index.ts"]
     },
-    "typeRoots": [
-      "node_modules/@types",
-      "src/components/index.d.ts"
-    ]
+    "typeRoots": ["node_modules/@types", "src/components/index.d.ts"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

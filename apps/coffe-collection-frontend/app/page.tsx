@@ -1,5 +1,5 @@
 
-import { Header } from '@coffe-collection/components'
+import { Header } from '@coffe-collection/ui'
 
 export default function Home() {
   return (

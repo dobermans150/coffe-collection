@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run dev --workspace @coffe-collection/coffe-collection-frontend",
-    "build-components": "npm run build --workspace @coffe-collection/components"
+    "build-ui": "npm run build --workspace @coffe-collection/ui"
   },
   "keywords": [],
   "author": "",
