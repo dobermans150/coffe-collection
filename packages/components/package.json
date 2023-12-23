@@ -1,7 +1,7 @@
 {
   "name": "@coffe-collection/components",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,7 +23,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.6.4",
+    "vite-tsconfig-paths": "^4.2.2"
   },
   "files": [
     "dist"
@@ -31,14 +33,11 @@
   "exports": {
     ".": {
       "import": "./dist/components.es.js",
-      "require": "./dist/components.umd.js"
+      "require": "./dist/components.umd.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "main": "./dist/components.umd.js",
   "module": "./dist/components.es.js",
-  "types": "./dist/index.d.ts",
-  "dependencies": {
-    "vite-plugin-dts": "^3.6.4",
-    "vite-tsconfig-paths": "^4.2.2"
-  }
+  "types": "./dist/index.d.ts"
 }

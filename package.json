@@ -9,10 +9,14 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm run dev --workspaces @coffe-collection/coffe-collection-frontend",
-    "build-components": "npm run build --workspaces @coffe-collection/components"
+    "dev": "npm run dev --workspace @coffe-collection/coffe-collection-frontend",
+    "build-components": "npm run build --workspace @coffe-collection/components"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-dts": "^3.6.4",
+    "vite-tsconfig-paths": "^4.2.2"
+  }
 }

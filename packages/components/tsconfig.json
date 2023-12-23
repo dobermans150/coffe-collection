@@ -27,6 +27,6 @@
       "src/components/index.d.ts"
     ]
   },
-  "include": ["src", "src/components/index.ts"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
