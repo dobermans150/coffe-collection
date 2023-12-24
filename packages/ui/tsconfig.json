@@ -20,8 +20,8 @@
     "allowImportingTsExtensions": true,
     "baseUrl": ".",
     "paths": {
-      "components": ["src/components/index.ts"],
-      "ui":["src/index.ts"]
+      "components": ["src/components/index.tsx"],
+      "ui":["src/index.tsx"]
     },
     "typeRoots": ["node_modules/@types", "src/components/index.d.ts"]
   },
